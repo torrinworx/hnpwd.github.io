@@ -13,7 +13,7 @@
   :hnuid "xorvoid"
   :bio "Writes about low-level programming and mathematics.")
 
-  (:name "Captain's Quarters"
+ (:name "Captain's Quarters"
   :site "https://quarters.captaintouch.com/"
   :feed "https://quarters.captaintouch.com/blog/posts.xml"
   :hnuid "capitain"

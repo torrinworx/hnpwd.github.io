@@ -87,11 +87,23 @@
     (format s "  </body>~%")
     (format s "</opml>~%")))
 
-(defun make-site-link (href text)
+(defun parse-host (url)
+  "Extract the domain name from the given URL."
+  (let* ((host-start (+ (search "://" url) 3))
+         (host-end (position #\/ url :start host-start))
+         (host (subseq url host-start host-end)))
+    (when (and (>= (length host) 4) (string= host "www." :end1 4))
+      (setf host (subseq host 4)))
+    host))
+
+(defun make-site-link (url)
+  (format nil "<a href=\"~a\">~a</a>" url (parse-host url)))
+
+(defun make-nav-link (href text)
   "Create an HTML link."
   (with-output-to-string (s)
     (when href
-      (format s "          <a href=\"~a\">~a</a>~%" href text))))
+      (format s "          <a href=\"~a\">~a</a> |~%" href text))))
 
 (defun make-user-link (user text)
   "Create an HTML link."
@@ -110,12 +122,13 @@
   (with-output-to-string (s)
     (format s "      <section>~%")
     (format s "        <h2>~a</h2>~%" (getf item :name))
+    (format s "        <h3>~a</h3>~%" (make-site-link (getf item :site)))
     (format s "        <nav>~%")
-    (format s (make-site-link (getf item :site) "Website"))
-    (format s (make-site-link (getf item :about) "About"))
-    (format s (make-site-link (getf item :blog) "Blog"))
-    (format s (make-site-link (getf item :now) "Now"))
-    (format s (make-site-link (getf item :feed) "Feed"))
+    (format s (make-nav-link (getf item :site) "Website"))
+    (format s (make-nav-link (getf item :blog) "Blog"))
+    (format s (make-nav-link (getf item :about) "About"))
+    (format s (make-nav-link (getf item :now) "Now"))
+    (format s (make-nav-link (getf item :feed) "Feed"))
     (format s (make-user-link (getf item :hnuid) "HN"))
     (format s "        </nav>~%")
     (format s (make-site-bio (getf item :bio)))
