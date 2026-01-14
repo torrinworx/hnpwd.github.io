@@ -155,6 +155,7 @@
           do (format s "~a" (make-html-card item)))
     (format s "    </main>~%")
     (format s "    <footer>~%")
+    (format s "      <hr>~%")
     (format s "      <nav>~%")
     (format s "        <a href=\"https://github.com/hnpwd/hnpwd.github.io#readme\">README</a>~%")
     (format s "        <a href=\"pwd.opml\">OPML</a>~%")
