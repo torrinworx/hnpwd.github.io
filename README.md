@@ -24,11 +24,10 @@ you'll find an example entry that you can copy and paste to get
 started.  While creating your PR, please follow these guidelines:
 
  1. Ensure that all blog entries remain sorted by name.
- 2. Please keep the bio brief.  Ten to twenty words is okay.  A hundred
-    or so words isn't.
- 3. If you do not want to provide certain links, just delete that
-    entire property.  For example, if you do not want to provide an
-    'about' link, just delete the entire `:about` line from your entry.
+ 2. Ensure that the bio text does not exceed 80 characters in length.
+ 3. If you do not want to enter certain links, just delete that entire
+    property.  For example, if you do not want to provide an 'about'
+    link, just delete the entire `:about` line from your entry.
 
 That's it!  Once you create the PR, we'll take care of the rest.
 
