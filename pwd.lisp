@@ -92,12 +92,11 @@
   :hnuid "capitain"
   :bio "Palm-OS game dev.  Ramblings about retro-tech and other nostalgia.")
 
-  (:name "Charles Wang"
-   :site "https://charleszw.com"
-   :blog "https://charleszw.com/posts"
-   :about "https://charleszw.com/about"
-   :hnuid "charleszw"
-   :bio "Engineer, pixel pushing and bridge carving. Computer graphics and game engines.")
+ (:name "Charles Wang"
+  :site "https://charleszw.com"
+  :blog "https://charleszw.com/posts"
+  :hnuid "charleszw"
+  :bio "Engineer, pixel pushing and bridge carving. Computer graphics and game engines.")
 
  (:name "Chris Morgan"
   :site "https://chrismorgan.info/"
