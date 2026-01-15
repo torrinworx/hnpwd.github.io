@@ -3,10 +3,10 @@
   <head>
     <title>HN Personal Websites</title>
     <dateCreated>Tue, 14 Jan 2025 00:00:00 UTC</dateCreated>
-    <dateModified>Thu, 15 Jan 2026 00:02:05 UTC</dateModified>
+    <dateModified>Thu, 15 Jan 2026 00:15:13 UTC</dateModified>
   </head>
   <body>
-    <!-- 23 entries -->
+    <!-- 24 entries -->
     <outline text="HN Personal Websites" title="HN Personal Websites">
       <outline type="rss" text="Aditya Athalye" title="Aditya Athalye" xmlUrl="https://www.evalapply.org/index.xml" htmlUrl="https://www.evalapply.org/"/>
       <outline type="rss" text="Anthony Bonkoski" title="Anthony Bonkoski" xmlUrl="https://xorvoid.com/rss.xml" htmlUrl="https://xorvoid.com/"/>
@@ -18,6 +18,7 @@
       <outline type="rss" text="Joseph Szymborski" title="Joseph Szymborski" xmlUrl="https://jszym.com/index.xml" htmlUrl="https://jszym.com/"/>
       <outline type="rss" text="Karl Knechtel" title="Karl Knechtel" xmlUrl="https://zahlman.github.io/rss.xml" htmlUrl="https://zahlman.github.io/"/>
       <outline type="rss" text="Kyle Ross" title="Kyle Ross" xmlUrl="https://ktross.com/rss.xml" htmlUrl="https://ktross.com/"/>
+      <outline type="rss" text="Laurent P. René de Cotret" title="Laurent P. René de Cotret" xmlUrl="https://laurentrdc.xyz/atom.xml" htmlUrl="https://laurentrdc.xyz/"/>
       <outline type="rss" text="Matteo" title="Matteo" xmlUrl="https://xnacly.me/index.xml" htmlUrl="https://xnacly.me/"/>
       <outline type="rss" text="Nicolas Chagnet" title="Nicolas Chagnet" xmlUrl="https://nchagnet.pages.dev/rss.xml" htmlUrl="https://nchagnet.pages.dev/"/>
       <outline type="rss" text="Phil Booth" title="Phil Booth" xmlUrl="https://philbooth.me/blog/atom.xml" htmlUrl="https://philbooth.me/"/>
