@@ -194,6 +194,14 @@
   :hnuid "susam"
   :bio "Creator of Emacs devil-mode.  Writes about technology and mathematics.")
 
+ (:name "Suriya Ganesh Ayyamperumal"
+  :site "https://suriya.cc/"
+  :feed "https://suriya.cc/index.xml"
+  :about "https://suriya.cc/"
+  :now "https://suriya.cc/now/"
+  :hnuid "suriya-ganesh"
+  :bio "Engineer who loves to write about tech and life")
+
  (:name "Theodore Morley"
   :site "https://tjmorley.com/"
   :blog "https://tjmorley.com/articles.html"
